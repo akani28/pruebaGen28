@@ -1,8 +1,18 @@
 body{
     background-color: crimson;
+    
 }
 p{
     background-color: coral;
     height: 300px;
     width: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.center{
+    margin: auto;
+    border: 1px dashed aqua;
+    width: 90%;
 }
