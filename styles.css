@@ -10,9 +10,15 @@ p{
     border-radius: 10px;
     margin: 20px;
     text-align: center;
+    align-items: center;
 }
 .center{
     margin: auto;
     border: 1px dashed aqua;
     width: 90%;
+}
+img{
+    height: 275px;
+    width: 190px;
+    display: inline-block;
 }
