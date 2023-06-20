@@ -1,3 +1,8 @@
 body{
-    background-color: red;
+    background-color: crimson;
+}
+p{
+    background-color: coral;
+    height: 300px;
+    width: 250px;
 }
