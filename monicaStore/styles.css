@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.primero{
+    background-color: aqua;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+    align-content: center;
+}
+.primero_caja{
+    background-color: coral;
+    height: 200px;
+    width: 200px;
+
+}
+.segundo{
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    gap: 30rem;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}
+.segundo > div{
+    background-color: coral;
+    height: 100px;
+    width: 100px;
+}
+.tercero{
+    background-color: aqua;
+    display: flex;
+    height: 400px;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+.tercero_caja{
+    background-color: lightcoral;
+    width: 2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    flex-grow: 1;
+    transition: flex-grow 1s;
+}
+
+.tercero_caja:hover{
+    flex-grow: 2;
+
+}
+img{
+    height: 350px;
+    width: 300px;
+}
+.hijo_tercero{
+    height: 350px;
+    border-radius: 15px;
+    flex-grow: 1;
+    transition: flex-grow 1s;
+    width: 100px;
+}
+.hijo_tercero:hover{
+    flex-grow: 2;
+}
